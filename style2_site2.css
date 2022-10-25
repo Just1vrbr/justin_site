@@ -1,0 +1,37 @@
+body{
+	background-color: olivedrab;
+	text-align: center;
+}
+
+
+h1{
+color: hotpink;
+font-family: verdana;
+font-size: 2em;
+
+
+}
+button{
+border: 2px solid black;
+border-radius: 26px;
+text-align: center;
+padding: 15px 32px;
+background-color: khaki;
+margin-top: 3px;
+width: 300px;
+
+}
+div{
+	border: 2px solid moccasin;
+	border-radius: 26px;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding: 2%;
+	width: 50%;
+}
+
+button:hover{
+	color: dodgerblue;
+	background-color: crimson;
+	border: 2px solid lavender;
+}

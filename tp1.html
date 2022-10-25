@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function calcul_moyenne()
+	{
+		
+var note1=prompt("donner la première note:");
+var note2=prompt("donner la deuxième note:");
+var note3=prompt("donner la troisième note:");
+
+var somme=note1*2 + note2*3 + note3*3;
+var moyenne=somme /8;
+document.write("voici la somme:    "+somme 	+"   ");
+document.write("voilà la moyenne:    "+moyenne +"   ");
+if(moyenne>=10)
+	document.write("étudiant admis");
+else
+	document.write("vous êtes redoublant");
+	}
+
+	function age_test() {
+	var age= prompt("donner votre age");
+	if(age>100 || age<=0)
+	{
+		document.bgColor="red";
+	alert("attention age invalide");
+
+}
+	else
+	{
+		document.bgColor="green";
+	alert("age valide");	
+}
+	}
+
+	function simple_affichage() {	
+		var prenom=prompt("donner votre prenom");
+		var nom=prompt("donner votre nom");
+		document.write("<div style='border:2px solid blue; background-color:yellow; width:30%; height:220px; margin:auto; text-align:center; padding-top:150px; font-size:2rem;'>");
+		document.write("<p1 style='color:red';>Bonjour "+prenom+" " +nom+"</p1>");	
+		document.write("</div>")
+	}
+
+	function couleur() {
+		var couleur=prompt("selectionner une couleur");
+		if (couleur=="rouge" || couleur=="ROUGE"){
+			document.bgColor="red";	
+		}
+		else if (couleur=="bleu"|| couleur=="BLEU")
+		document.bgColor="blue";
+
+	else if (couleur=="vert"|| couleur=="VERT")
+		document.bgColor="green";
+	else
+		alert("erreur");
+			}
+
+</script>
+<button onclick="calcul_moyenne()">calculer la moyenne</button>
+<button onclick="age_test()"> tester l'age</button>
+<button onclick="simple_affichage()"> affichage simple</button>
+<button onclick="couleur()"> couleur</button>
+
+</body>
+</html>

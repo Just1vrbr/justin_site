@@ -1,0 +1,55 @@
+td
+{
+	border: 2px solid rebeccapurple;
+	border-radius: 5px;
+}
+h1
+{
+	text-align: center;
+	font-size: 2rem;
+	color: blue;
+	padding: 30px;
+	margin: 20px;
+}
+table
+{
+	border: 2px solid cyan;
+	margin: auto;
+	border-radius: 7px;
+}
+.nou
+{
+	background-color: yellow;
+	text-align: center;
+	font-size: 1rem;
+	color: blue;
+	height: 50px;
+	font-family: sans-serif;
+}
+.fra
+{
+	background: url(france.jfif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 250px;
+	height: 150px;
+	text-align: center;
+	font-family: sans-serif;
+}
+.all
+{
+	width: 800px;
+	text-align: center;
+	font-family: sans-serif;
+	background-color: darkolivegreen;
+}
+.usa
+{
+	background-image: url(usa.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 250px;
+	height: 150px;
+	text-align: center;
+font-family: sans-serif;
+}

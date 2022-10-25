@@ -1,0 +1,41 @@
+div{
+
+	border: 2px solid red;
+	font-family: verdana;
+	border-radius: 26px;
+	text-align: center;
+}
+h2{
+	font-family: verdana;
+	color: red;
+}
+body{
+	background-color: black;
+}
+
+input{
+	border-radius: 15px;
+	background-color: black;
+	border: 2px solid red;
+	padding: 20px;
+	margin: 15px;
+	width: 30%;
+}
+
+button:hover{
+	color: red;
+	background-color: black;
+	font-family: verdana;
+	border: 2px solid red;
+}
+
+button{
+	border: 2px solid red;
+	border-radius: 26px;
+	text-align: center;
+padding: 5px;
+background-color: red;
+margin-top: 6px;
+width: 100px;
+}
+

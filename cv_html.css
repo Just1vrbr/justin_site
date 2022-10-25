@@ -1,0 +1,52 @@
+
+  h1{
+  	color: black;
+  			font-family: verdana;
+  }
+  h2{
+  	color: black;
+  	background-color: gray;
+  }
+  p{
+  	color: blueviolet;
+ 
+  	text-align: justify;
+  }
+  div{
+  	border-radius: 6px;
+  	width: 95%;
+
+  	padding: 1%;
+  	margin-top: 3%;
+  }
+  header{
+  	border: 3px solid gray; 
+  	border-radius: 6px;
+  	width: 95%;
+ 
+  	text-align: justify;
+  	padding: 1%;
+  }
+  footer{
+  	border: 3px solid green; 
+  	border-radius: 6px;
+  	width: 95%;
+  	text-align: justify;
+  	padding: 1%;
+  }
+  .c1{
+  	border: 3px solid gray; 
+  	border-radius: 6px;
+  	width: 95%;
+
+  	padding: 1%;
+  	margin-top: 0%;
+  }
+  .c2{
+  	border: 3px solid gray; 
+  	border-radius: 6px;
+  	width: 95%;
+
+  	padding: 1%;
+  	margin-top: 2%;
+  }
