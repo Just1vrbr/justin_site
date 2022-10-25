@@ -1,0 +1,36 @@
+table{
+
+	border-radius: 5px;
+	border: 2px solid limegreen ;
+	font-size: 2rem;
+	font-family: verdana;
+	background-color: greenyellow;
+}
+
+input 
+{
+font-family: verdana;
+	border: 3px solid blue ;
+	width: 180px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: khaki;
+}
+button
+{
+font-family: verdana;
+	border: 3px solid blue ;
+	width: 180px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: khaki;
+}
+}
+td{
+border-radius: 8px;
+
+}
+tr{
+border-radius: 5px;
+
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="tp3.css">
+</head>
+<script type="text/javascript">
+	
+	function resultat()
+	 {
+	var a = document.getElementById('p1').value;
+	var b = document.getElementById('q1').value;
+	var c =Number(a)*Number(b);
+	r1.value=c;
+var d = document.getElementById('p2').value;
+	var e = document.getElementById('q2').value;
+	var f =Number(d)*Number(e);
+	r2.value=f;
+	var g = document.getElementById('p3').value;
+	var h = document.getElementById('q3').value;
+	var i =Number(g)*Number(h);
+	r3.value=i;
+	
+	 r4.value=i+f+c
+	}
+
+	function reinitialiser() {
+		
+	}
+
+
+</script>
+
+
+
+
+<body>
+<h1>Facture en Javascript</h1>
+
+<table border=5px>
+<tr>
+   
+
+    <td>Articles: </td>
+    <td>Prix: </td>
+    <td>Quantité: </td>
+    <td> Résultat</td>
+    
+</tr>	
+
+<tr>
+	
+<td><input type="text" name="" placeholder="entrez un article"> </td>
+    <td><input id="p1" type="text" name="p1" placeholder="0"> </td>
+    <td><input id="q1" type="text" name="q1" placeholder="0"> </td>
+    <td> <input id="r1" type="text" name="r1" placeholder="0"></td>
+    
+
+</tr>
+
+<tr>
+	
+<td><input type="text" name="" placeholder="entrez un article"> </td>
+    <td><input id="p2" type="text" name="p2" placeholder="0"> </td>
+    <td><input id="q2" type="text" name="q2" placeholder="0"> </td>
+    <td> <input id="r2" type="text" name="r2" placeholder="0"></td>
+   
+
+</tr>
+
+<tr>
+	
+<td><input type="text" name="" placeholder="entrez un article"> </td>
+    <td><input id="p3" type="text" name="p3" placeholder="0"> </td>
+    <td><input id="q3" type="text" name="q3" placeholder="0"> </td>
+    <td> <input id="r3" type="text" name="r3" placeholder="0"></td>
+    
+
+
+
+</tr>
+
+<tr>
+	
+<td> </td>
+    <td><input Type="button" value="Réinitialiser" onClick="history.go(0)"> </td>
+    <td><button onclick="resultat()">Résultat</button> </td>
+    <td><input type="text" name="r4" id="r4" readonly></td>
+     
+
+
+
+</tr>
+
+</table>
+</body>
+</html>
