@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function calculer()
+		{
+			var a = document.getElementById("t1").value;
+			var b = document.getElementById("t2").value;
+			var c=Number(a)+Number(b);
+			t3.value = c;
+		}
+
+		function resultat()
+		{
+			var d = document.getElementById("t4").value;
+			var e = document.getElementById("t5").value;
+			var f =document.getElementById("t6").value;
+			var moyenne = Number(d)/3 + Number(e)/3 +Number(f)/3
+			r1.value = moyenne
+
+			if (moyenne<10)
+				r2.value = "Refusé"
+			else if (moyenne<12)
+				r2.value = "Passable"
+			else if (moyenne<15)
+				r2.value = "Bien"
+			else
+				r2.value = "Très bien"
+		}
+
+	</script>
+</head>
+<body>
+
+<fieldset>
+	<legend>Calculatrice</legend>
+		<input type="text" name="t1" id="t1" placeholder="Saisir une valeur">
+		<input type="text" name="t2" id="t2" placeholder="Saisir une valeur">
+		<input type="text" name="t3" id="t3" placeholder="Résultat" readonly>
+		<button onclick="calculer();">Calculer</button>
+</fieldset>
+
+<fieldset>
+	<legend>Relevé de notes</legend>
+	<table>
+		<tr>
+		<td>Notes</td><td><input type="text" name="t4" id="t4" placeholder="Saisir une valeur"></td><td></td><td>Votre Moyenne</td><td><input type="text" name="r1" id="r1" placeholder="Moyenne" readonly></td>
+		</tr>
+		<tr>
+		<td>Notes</td><td><input type="text" name="t5" id="t5" placeholder="Saisir une valeur"></td><td><button onclick="resultat();">Résultat</button></td><td></td><td></td>
+		</tr>
+		<tr>
+		<td>Notes</td><td><input type="text" name="t6" id="t6" placeholder="Saisir une valeur"></td><td></td><td></td><td><input type="text" name="r2" id="r2" placeholder="Mention" readonly></td></td>
+		</tr>
+</fieldset>
+<center><a href="index.html"> Revenir au site principal</a></p></center>
+</body>
+</html>
