@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href=facture_neslecss.css>
+	<title></title>
+	<script type="text/javascript">
+
+		function calcul() 
+		{
+		
+			var a = document.getElementById("a2").value;
+			var b = document.getElementById("a3").value;
+			var c = Number(a)*Number(b);
+			a4.value = c;
+		
+		
+			var aa = document.getElementById("b2").value;
+			var ba = document.getElementById("b3").value;
+			var ca = Number(aa)*Number(ba);
+			b4.value = ca;
+		
+			var ab = document.getElementById("c2").value;
+			var bb = document.getElementById("c3").value;
+			var cb = Number(ab)*Number(bb);
+			c4.value = cb;
+		
+		
+			var ac = document.getElementById("d2").value;
+			var bc = document.getElementById("d3").value;
+			var cc = Number(ac)*Number(bc);
+			d4.value = cc;
+				
+			var ad = document.getElementById("e2").value;
+			var bd = document.getElementById("e3").value;
+			var cd = Number(ad)*Number(bd);
+			e4.value = cd;
+
+			var ae = document.getElementById("f2").value;
+			var be = document.getElementById("f3").value;
+			var ce = Number(ae)*Number(be);
+			f4.value = ce;
+
+			var af = document.getElementById("g2").value;
+			var bf = document.getElementById("g3").value;
+			var cf = Number(af)*Number(bf);
+			g4.value = cf;
+
+			var ag = document.getElementById("h2").value;
+			var bg = document.getElementById("h3").value;
+			var cg = Number(ag)*Number(bg);
+			h4.value = cg;
+
+			var ah = Number(c)+Number(ca)+Number(cb)+Number(cc)+Number(cd)+Number(ce)+Number(ce)+Number(cf)+Number(cg);
+			i1.value = ah;
+
+			var ai = document.getElementById("j1").value;
+			var bi = Number(ah)-Number(ai);
+			k1.value = bi;
+
+			var aj = document.getElementById("l1").value;
+			var bj = Number(aj)*Number(bi)
+			m1.value = bj;
+
+			var ak = document.getElementById("n1").value;
+			var bk = Number(ak)+ Number(bj)+Number(bi)
+			o1.value = bk
+		}
+n1
+k1
+m1
+	</script>
+	<table>
+
+	<tr>
+		<td rowspan="3" class="nesle"><img src="logo.jpeg"></td><td></td><td>Nestlé</td><td><h1>Facture<h1></td>
+	</tr>
+	<tr>
+		<td></td><td>6 rue du Chapeau,75015</td><td><input type="text" placeholder="Date"></td>
+	</tr>
+
+	<tr>
+		<td></td><td>06.50.25.25.52</td><td><input type="text" placeholder="Numéro de facture"> </td>
+	</tr>
+
+	<table>
+
+	
+</head>
+<body bgcolor="grey">
+
+<table>
+
+
+</table>
+
+<table class="table2" id="table2">
+
+<tr>
+	<td><h3>Description</h3></td>
+	<td><h3>Quantité</h3></td>
+	<td><h3>Prix Unitaire</h3></td>
+	<td><h3>Total</h3></td>
+</tr>
+
+<tr>
+<td><input type="text" name="a1" id="a1"></td>
+<td><input type="text" name="a2" id="a2"></td>
+<td><input type="text" name="a3" id="a3"></td>
+<td><input type="text" name="a4" id="a4" placeholder="0,00" readonly></td>
+</tr>
+
+<tr>
+<td><input type="text" name="b1" id="b1"></td>
+<td><input type="text" name="b2" id="b2"></td>
+<td><input type="text" name="b3" id="b3"></td>
+<td><input type="text" name="b4" id="b4" placeholder="0,00" readonly></td>
+</tr>
+
+<tr>
+<td><input type="text" name="c1" id="c1"></td>
+<td><input type="text" name="c2" id="c2"></td>
+<td><input type="text" name="c3" id="c3"></td>
+<td><input type="text" name="c4" id="c4" placeholder="0,00" readonly></td>
+</tr>
+
+<tr>
+<td><input type="text" name="d1" id="d1"></td>
+<td><input type="text" name="d2" id="d2"></td>
+<td><input type="text" name="d3" id="d3"></td>
+<td><input type="text" name="d4" id="d4" placeholder="0,00" readonly></td>
+</tr>
+
+
+<tr>
+<td><input type="text" name="e1" id="e1"></td>
+<td><input type="text" name="e2" id="e2"></td>
+<td><input type="text" name="e3" id="e3"></td>
+<td><input type="text" name="e4" id="e4" placeholder="0,00" readonly></td>
+</tr>
+
+<tr>
+<td><input type="text" name="f1" id="f1"></td>
+<td><input type="text" name="f2" id="f2"></td>
+<td><input type="text" name="f3" id="f3"></td>
+<td><input type="text" name="f4" id="f4" placeholder="0,00" readonly></td>
+</tr>
+
+<tr>
+<td><input type="text" name="g1" id="g1"></td>
+<td><input type="text" name="g2" id="g2"></td>
+<td><input type="text" name="g3" id="g3"></td>
+<td><input type="text" name="g4" id="g4" placeholder="0,00" readonly></td>
+</tr>
+
+<tr>
+<td><input type="text" name="h1" id="h1"></td>
+<td><input type="text" name="h2" id="h2"></td>
+<td><input type="text" name="h3" id="h3"></td>
+<td><input type="text" name="h4" id="h4" placeholder="0,00" readonly></td>
+</tr>
+
+<tr>
+<td>Remarques,notes et instruction de paiement.</td>
+<td></td>
+<td>Sous-total :</td>
+<td><input type="text" name="i1" id="i1" placeholder="0,00" readonly></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>Remise :</td>
+<td><input type="text" name="j1" id="j1" placeholder="0,00"></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>Sous-total moins les remises :</td>
+<td><input type="text" name="k1" id="k1" placeholder="0,00" readonly></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>Taux d'imposition :</td>
+<td><input type="text" name="l1" id="l1" placeholder="0,00%"></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>Taxe total :</td>
+<td><input type="text" name="m1" id="m1" placeholder="0,00" readonly></td>
+</tr>
+
+<tr>
+<td><button value="Réinitialiser" onClick="history.go(0)">Réinitialiser</button></td>
+<td></td>
+<td>Expédition, Manutention :</td>
+<td><input type="text" name="n1" id="n1" placeholder="0,00"></td>
+</tr>
+
+<tr>
+<td><button onclick="calcul();">Calculer</button></td>
+<td></td>
+<td>SOLDE DÛ :</td>
+<td><input type="text" name="o1" id="o1" placeholder="0,00€" readonly></td>
+</tr>
+
+</table>
+
+</body>
+</html>
